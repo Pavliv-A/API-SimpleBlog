@@ -1,0 +1,236 @@
+Script started on 2021-01-19 19:38:31+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="107" LINES="12"]
+]0;andrii@andrii-All-Series: ~/rorapp[01;32mandrii@andrii-All-Series[00m:[01;34m~/rorapp[00m$ script/generate controller home index
+bash: script/generate: Нет такого файла или каталога
+]0;andrii@andrii-All-Series: ~/rorapp[01;32mandrii@andrii-All-Series[00m:[01;34m~/rorapp[00m$ script/generate controller home index[K[Krails generate controller home index
+Running via Spring preloader in process 5196
+[1m[32m      create[0m  app/controllers/home_controller.rb
+[1m[32m       route[0m  get 'home/index'
+[1m[37m      invoke[0m  erb
+[1m[32m      create[0m    app/views/home
+[1m[32m      create[0m    app/views/home/index.html.erb
+[1m[37m      invoke[0m  test_unit
+[1m[32m      create[0m    test/controllers/home_controller_test.rb
+[1m[37m      invoke[0m  helper
+[1m[32m      create[0m    app/helpers/home_helper.rb
+[1m[37m      invoke[0m    test_unit
+[1m[37m      invoke[0m  assets
+[1m[37m      invoke[0m    scss
+[1m[32m      create[0m      app/assets/stylesheets/home.scss
+]0;andrii@andrii-All-Series: ~/rorapp[01;32mandrii@andrii-All-Series[00m:[01;34m~/rorapp[00m$ rails generate controller home indexscript/generate controller home inde[10Pif config enemyPerson72364top[Kfinger user[5Pwhoami[Kuptimecal 2011[4Parchuname -rip link show[1Phelshow*fconfig eth0sudo apt install net-tools[13Pifconfig eth0p link show*[2Phelshow[4Puname -r[4Parchcal 2011[K[K[K[K[K[K[K[Krails server
+=> Booting Puma
+=> Rails 6.1.1 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+Puma starting in single mode...
+* Puma version: 5.1.1 (ruby 3.0.0-p0) ("At Your Service")
+*  Min threads: 5
+*  Max threads: 5
+*  Environment: development
+*          PID: 5695
+* Listening on http://127.0.0.1:3000
+* Listening on http://[::1]:3000
+Use Ctrl-C to stop
+Started GET "/home/index" for 127.0.0.1 at 2021-01-19 19:45:59 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 292)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/andrii/rorapp/public/packs
+[Webpacker] Hash: 415a948d492e21802f43
+Version: webpack 4.46.0
+Time: 1649ms
+Built at: 2021-01-19 19:46:02
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d5a3c3b4dce84b5eb605.js    125 KiB  application  [emitted] [immutable]  application
+js/application-d5a3c3b4dce84b5eb605.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d5a3c3b4dce84b5eb605.js js/application-d5a3c3b4dce84b5eb605.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 3332.8ms | Allocations: 14259)
+Completed 200 OK in 3342ms (Views: 3335.2ms | ActiveRecord: 0.0ms | Allocations: 17322)
+
+
+Started GET "/" for 127.0.0.1 at 2021-01-19 19:46:08 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.4ms | Allocations: 229)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 1128)
+
+
+Started GET "/home/" for 127.0.0.1 at 2021-01-19 19:46:14 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home/index" for 127.0.0.1 at 2021-01-19 19:46:39 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3171)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4386)
+
+
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2021-01-19 19:46:54 +0200 ===
+- Goodbye!
+Exiting
+]0;andrii@andrii-All-Series: ~/rorapp[01;32mandrii@andrii-All-Series[00m:[01;34m~/rorapp[00m$ rails server
+=> Booting Puma
+=> Rails 6.1.1 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+Exiting
+/home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:332:in `check_part': [1mMissing :controller key on routes definition, please check your routes. ([1;4mArgumentError[m[1m)[m
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:312:in `check_controller_and_action'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:257:in `normalize_options!'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:147:in `initialize'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:86:in `new'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:86:in `build'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:1985:in `add_route'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:1957:in `decomposed_match'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:1921:in `block in map_match'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:1915:in `each'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:1915:in `map_match'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:1663:in `match'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:765:in `map_method'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/mapper.rb:718:in `get'
+	from /home/andrii/rorapp/config/routes.rb:6:in `block in <main>'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/route_set.rb:427:in `instance_exec'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/route_set.rb:427:in `eval_block'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/actionpack-6.1.1/lib/action_dispatch/routing/route_set.rb:409:in `draw'
+	from /home/andrii/rorapp/config/routes.rb:5:in `<main>'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:59:in `load'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/application/routes_reloader.rb:47:in `block in load_paths'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/application/routes_reloader.rb:47:in `each'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/application/routes_reloader.rb:47:in `load_paths'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/application/routes_reloader.rb:21:in `reload!'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/application/routes_reloader.rb:35:in `block in updater'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/activesupport-6.1.1/lib/active_support/file_update_checker.rb:83:in `execute'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/application/routes_reloader.rb:10:in `execute'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/application/finisher.rb:195:in `block in <module:Finisher>'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/initializable.rb:32:in `instance_exec'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/initializable.rb:32:in `run'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/initializable.rb:61:in `block in run_initializers'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/3.0.0/tsort.rb:228:in `block in tsort_each'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/3.0.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/3.0.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/3.0.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/3.0.0/tsort.rb:347:in `each'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/3.0.0/tsort.rb:347:in `call'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/3.0.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/3.0.0/tsort.rb:226:in `tsort_each'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/3.0.0/tsort.rb:205:in `tsort_each'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/initializable.rb:60:in `run_initializers'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/application.rb:384:in `initialize!'
+	from /home/andrii/rorapp/config/environment.rb:5:in `<main>'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/activesupport-6.1.1/lib/active_support/dependencies.rb:332:in `block in require'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/activesupport-6.1.1/lib/active_support/dependencies.rb:299:in `load_dependency'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/activesupport-6.1.1/lib/active_support/dependencies.rb:332:in `require'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:53:in `require_relative'
+	from config.ru:3:in `block in <main>'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/commands/server/server_command.rb:77:in `log_to_stdout'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/commands/server/server_command.rb:37:in `start'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/commands/server/server_command.rb:144:in `block in perform'
+	from <internal:kernel>:90:in `tap'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/commands/server/server_command.rb:135:in `perform'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/thor-1.0.1/lib/thor/command.rb:27:in `run'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/thor-1.0.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/thor-1.0.1/lib/thor.rb:392:in `dispatch'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/command/base.rb:69:in `perform'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/command.rb:50:in `invoke'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/commands.rb:18:in `<main>'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/bootsnap-1.5.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/activesupport-6.1.1/lib/active_support/dependencies.rb:332:in `block in require'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/activesupport-6.1.1/lib/active_support/dependencies.rb:299:in `load_dependency'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/activesupport-6.1.1/lib/active_support/dependencies.rb:332:in `require'
+	from /home/andrii/rorapp/bin/rails:5:in `<top (required)>'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/spring-2.1.1/lib/spring/client/rails.rb:28:in `load'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/spring-2.1.1/lib/spring/client/rails.rb:28:in `call'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/spring-2.1.1/lib/spring/client/command.rb:7:in `call'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/spring-2.1.1/lib/spring/client.rb:30:in `run'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/spring-2.1.1/bin/spring:49:in `<top (required)>'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/spring-2.1.1/lib/spring/binstub.rb:11:in `load'
+	from /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/spring-2.1.1/lib/spring/binstub.rb:11:in `<top (required)>'
+	from <internal:/home/andrii/.rbenv/versions/3.0.0/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from <internal:/home/andrii/.rbenv/versions/3.0.0/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from /home/andrii/rorapp/bin/spring:8:in `block in <top (required)>'
+	from <internal:kernel>:90:in `tap'
+	from /home/andrii/rorapp/bin/spring:5:in `<top (required)>'
+	from bin/rails:2:in `load'
+	from bin/rails:2:in `<main>'
+]0;andrii@andrii-All-Series: ~/rorapp[01;32mandrii@andrii-All-Series[00m:[01;34m~/rorapp[00m$ rails server
+=> Booting Puma
+=> Rails 6.1.1 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+Puma starting in single mode...
+* Puma version: 5.1.1 (ruby 3.0.0-p0) ("At Your Service")
+*  Min threads: 5
+*  Max threads: 5
+*  Environment: development
+*          PID: 6566
+* Listening on http://127.0.0.1:3000
+* Listening on http://[::1]:3000
+Use Ctrl-C to stop
+Started GET "/" for 127.0.0.1 at 2021-01-19 19:52:23 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.5ms | Allocations: 419)
+Completed 200 OK in 12ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 3092)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2021-01-19 19:52:29 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 5500)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 6743)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2021-01-19 19:52:35 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2874)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3267)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2021-01-19 19:53:24 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2861)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3338)
+
+
+Started GET "/" for 127.0.0.1 at 2021-01-19 19:53:31 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/andrii/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.h
